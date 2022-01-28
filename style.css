@@ -8,6 +8,7 @@
 
 /* ### Neutral */
 --neutral: hsl(0, 0%, 59%);
+--light-neutral: rgba(150, 150, 150, 0.253);
 
 }
 
@@ -28,8 +29,8 @@ body {
     background-color: var(--main-color);
     background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    /* background-size: 50%, 50%; */
-    background-position: top left, bottom right;
+    background-size: 65%, 65%;
+    background-position: top -34vw left -18vw, bottom -42vw right -13vw;
     color: var(--neutral);
 
     display: flex;
@@ -95,7 +96,7 @@ h3{
     background: #fff;
     border: .4em solid #fff;
     border-radius: 50%;
-    width: 8rem;
+    width: 30vw,8rem;
 }
 
 /* User Info */
@@ -113,7 +114,7 @@ h3{
 
 .profile-data {
     
-    border-top: 1px solid var(--neutral);
+    border-top: 1px solid var(--light-neutral);
     padding: 1rem;
 
     display: flex;
@@ -136,4 +137,22 @@ h3{
     padding: .5em 0;
     font-size: .8em;
     letter-spacing: .1em;
+}
+
+/* -------------- Responsive Section */
+
+/* Responsive to change background images */
+
+@media (max-width:50rem) {
+    body {
+        background-size: 100vh, 100vh;
+        background-position: top -65vh left -65vh, bottom -50vh right -70vh;
+      }
+}
+
+/* Just in case  */
+@media (max-width:250px) {
+    .photo {
+        width: 50vw;
+    }
 }
