@@ -21,16 +21,17 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 1.12rem;
     background-color: var(--main-color);
     background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 65%, 65%;
     background-position: top -34vw left -18vw, bottom -42vw right -13vw;
+    
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.12rem;
     color: var(--neutral);
 
     display: flex;
