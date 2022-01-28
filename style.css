@@ -52,7 +52,7 @@ h3{
 .profile {
     background-color: white;
     width: min(80vw,400px);
-    border-radius: 2rem;
+    border-radius: 1.2rem;
 
     line-height: 1em;
     font-size: 1rem;
@@ -101,7 +101,12 @@ h3{
 /* User Info */
 .user-info {
     text-align: center;
-    padding: 2rem 0;
+    padding: .5rem 0;
+}
+
+.user-info span {
+    color: var(--neutral);
+    font-weight: 400;
 }
 
 /* -------------- User Data Section */
@@ -120,4 +125,15 @@ h3{
 
 .stat {
     text-align: center;
+    line-height: 0;
+}
+
+.stat-title {
+    font-size: 1.4em;
+}
+
+.stat-text {
+    padding: .5em 0;
+    font-size: .8em;
+    letter-spacing: .1em;
 }
