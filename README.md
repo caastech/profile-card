@@ -4,13 +4,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview Image](https://user-images.githubusercontent.com/57645180/151640861-de22a5e9-adec-4020-b2b2-9d543bdefe5f.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/responsive-profile-card-using-vanilla-css-naYGB_RTd)
+- Live Site URL: [Live Site](https://caastech.github.io/profile-card/)
 
 ## My process
 
